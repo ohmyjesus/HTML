@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <!--1. 浏览器主页的名字-->
+        <title>MyFirstWeb</title>   
+    </head>
+    <body>
+        <!--2. 标记对的使用，字体的设置等-->
+        <p align = center>
+            <font color = "pink"><b><font size = "5"> &nbsp;&nbsp;一、文字样式 </font></b></font>
+            <br>
+            <b> 粗体内容 </b>
+            <br>
+            <i> 斜体内容 </i>    
+            <br>
+            <font color="green"><a name="html">锚点链接2</a></font>
+            <br>
+            <s> 删除线内容 </s>
+            <br>
+
+            <u> 下划线内容 </u>   
+            <hr>
+        </p>
+
+        <p>
+            <!--3. 上标和下标的使用-->
+            <a href="#tag">回到锚点位置1</a>
+            <hr>
+            <u><b><font size = "5"> 二、上标和下标 </font></b></u>
+            <br>
+
+            H<sub>2</sub>O
+            <br>
+
+            10<sup>3</sup>
+            <hr>
+        </p>
+
+        <p>
+            <!--4. 物理字体的使用，字体大小，颜色设置等-->
+            <s><b><font size = "5"> 三、字体大小和颜色 </font></b></s>
+            <br>
+            <font size = "1"> 字体1 </font>
+            <br>
+            <font size = "3"> 字体3 </font>
+            <br>
+            <font size = "5"> 字体5 </font>
+            <br>
+            <font color="red"> 红色字体 </font>
+            <br>
+            <font color="blue"> 蓝色字体 </font>
+            <hr>
+        </p>
+
+        <p>
+            <!--5. 逻辑字体的使用-->
+            <h3><font size = "5"> 四、逻辑字体 </font></h3>
+            <em> 强调文字 </em>
+            <br>
+            <code> 显示编程代码 </code>
+            <br>
+            <strong> 加粗文字 </strong>
+            <hr>
+        </p>
+
+        <p>
+            <!--6. 换行和不换行-->
+            <h2>五、换行/不换行和列表</h2>
+            <nobr>这里再长的文字都不会换行 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</nobr>
+            我和<p>你
+        </p>
+
+            <!--7. 文字对齐格式的使用-->
+        <p align="center">文字居中</p>
+        <p align="left">文字靠左</p>
+        <p align="right">文字靠中</p>
+
+        <ul>
+            <!--8. 无序列表-->
+            <li>无序列表一</li>
+            <li>无序列表二</li>
+            <li>无序列表三</li>
+        </ul>
+
+        <ol>
+            <!--9. 有序列表-->
+            <li>有序列表一</li>
+            <li>有序列表二</li>
+            <li>有序列表三</li>
+        </ol>
+
+        <p>
+            <!--10. 欲格式化文本，即以文本形式显示在HTML页面上-->
+            <pre>
+                int a = 1;
+                int b = a + 1;
+            </pre>
+
+        </p>
+        <hr>
+        
+        <p>
+            <!--11. 图像-->
+            <h2>六、图像</h2>
+            课表<img src="C:\Users\xyh\Desktop\颖儿的课表.jpg" alt="课表" width="200px" height="200px">文字默认底端对齐
+            <br>
+            <br>
+            文字顶端对齐<a href="http://www.baidu.com"><img src="乡间壁纸1.jpg" alt="风景" width="200px" height="200px" align="top" border="0px">文字顶端对齐</a>
+        </p>
+
+        <p>
+            <!--12. 超链接-->
+            <h2>七、超链接</h2>
+            <a href="http://www.163.com">163网址</a>
+            <br>
+            <a href="http://www.163.com" target="_blank">新链接打开163网址</a>
+            <br>
+            <a href="http://www.163.com" target="_parent">父窗口下打开163网址</a>
+            <br>
+            <a href="http://www.163.com" target="_top">当前窗口下打开163网址</a>
+            <br>
+            <a href="http://www.163.com" title="网易网站">加文字注释的163网站</a>
+
+            <br>
+            <br>
+            <!--13. 锚点链接-->
+            <a href="#html">回到锚点位置2</a>
+            <br>
+            
+
+            <br>
+            <br>
+            <a href="mailto:843601748@qq.com">我的邮箱</a>
+        </p>
+
+        <p>
+            <!--14. 表单基本语法-->
+            <font color="green"><a name="tag">锚点链接1</a></font>
+            <h2>八、表单</h2>
+            用户注册页面表单实例<p></p>
+
+            <from action="show.aspx" method="get">
+                <!--设置文本框-->
+                账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：<input type="text">
+                <br>
+                <!--设置密码框-->
+                密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password">
+                <br>
+                确认密码：<input type="password">
+                <br>
+            </from>
+        </p>
+
+        <p>
+            <!--15. 单选框和默认选中框-->
+            您的年龄层是？<p>
+            <input type="radio" name="sbook"> 16周岁以下
+            <input type="radio" name="sbook" checked> 17-22周岁
+            <input type="radio" name="sbook"> 23-35周岁 
+        </p>
+
+        <p>
+            <!--16. 设置4个多选框，且都设置为book，表示在同一属性book中选多个-->
+            您的个人爱好有:<p>
+            <input type="checkbox" name="book"> 交友
+            <input type="checkbox" name="book" checked> 上网
+            <input type="checkbox" name="book" checked> 看书
+            <input type="checkbox" name="book"> 篮球
+        </p>
+
+        <p>
+            <!--17. 下拉列表和文本域,以及默认选中项-->
+            您来自哪里？<p>
+            <select>
+                <option>北京</option>
+                <option selected>四川</option>
+                <option>浙江</option>
+            </select>
+
+            <br>
+            <br>
+            自我介绍<p>
+            <textarea name=book rows=6 cols=60></textarea>
+            <br>
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </p>
+
+
+
+    </body>
+</html>

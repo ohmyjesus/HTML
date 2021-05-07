@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--第九章 框架-->
+	<title>Frame</title>
+</head>
+
+<!--多个框架，按列分为一半一半-->
+<!--
+<frameset cols="50%, 50%">
+	<frame src="http:www.163.com/">
+	<frame src="http:www.baidu.com/">
+</frameset>
+-->
+
+<!--多个框架，按行分为一半一半-->
+<!--
+<frameset rows="50%, 50%">
+	<frame src="http:www.baidu.com/">
+	<frame src="http:www.163.com/">
+</frameset>
+-->
+
+<!--多个框架，设置框架边界-->
+<!--
+<frameset cols="50%, 30%, 20%" frameborder="0">
+	<frame noresize="noresize" src="http:www.baidu.com/">
+	<frame src="http:www.163.com/" scrolling="no">
+	<frame src="http:www.sina.com.cn/">
+</frameset>
+-->
+
+<!--多个框架，设置框架链接-->
+<!--
+<frameset cols="30%, 70%" frameborder="1">
+	<frame src="http:www.163.com/" name="myframe">
+	<frame src="导航框架链接.html">
+</frameset>
+-->
+
+<body>
+	<!--内联框架-->
+	<!--
+	<iframe src="http:www.baidu.com"></iframe>
+	-->
+
+	<!--第十章 移动的字体和图片-->
+	<marquee>
+		SuperMan is Coming! -- 
+	</marquee>
+
+	<marquee direction="right">
+		SuperMan is Coming! -- 
+	</marquee>
+
+	<marquee width="2000px" height="2000px" bgcolor="#666666">
+	<img src="乡间壁纸1.jpg">图片移动
+	</marquee>
+
+</body>
+</html>

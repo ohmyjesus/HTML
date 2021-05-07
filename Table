@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MySecondWeb</title>
+</head>
+<body>
+	<p>
+		<!--第八章 表格-->
+		<h2>Table</h2>
+	</p>
+
+	<p>
+		<!--1.设置表格和边框-->
+		<table border="1">
+			<tr>
+				<th>表头一</th>
+				<th>表头二</th>
+			</tr>
+
+			<tr>
+				<td>表元三</td>
+				<td>表元四</td>
+			</tr>
+		</table>
+		<br>
+
+		<!--2. 设置跨多行表格-->
+		<table border="1" width="300">
+			<tr>
+				<td rowspan=3>跨行</td> <td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>2</td><td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+		</table>
+		<br>
+
+		<!--3. 设置跨多列表格-->
+		<table border="2" width="300">
+			<tr>
+				<td colspan=3>跨列</td> <td>2</td>
+			</tr>
+
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+		</table>
+		<br>
+
+		<!--4. 表格内文字对齐-->
+		<table border="1" width="300" height="100">
+			<tr align="center">
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr align="left">
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr align="right">
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+		</table>
+		<br>
+
+		<!--5. 表格在网页中的对齐，居中对齐-->
+		<table align = center border="1" width="300" height="100">
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+
+			<tr>
+				<td>1</td><td>2</td> <td>3</td> <td>4</td>
+			</tr>
+		</table>
+	</p>
+
+	<h2>Frame</h2>
+	<p>
+		
+
+	</p>
+
+</body>
+</html>
